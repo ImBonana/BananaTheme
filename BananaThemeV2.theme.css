@@ -1,0 +1,137 @@
+/**
+ * @name BananaThemeV2
+ * @author Im_banana#6112
+ * @version 2.0.0
+ * @description This theme for gaming. (Dark theme is required)
+ * @invite 2xtxs7C
+ * @authorId 635250116688871425
+*/
+
+@import url("https://codedotspectra.github.io/themes/nocturnal/importCSS/core.css");
+@import url("https://monstrousdev.github.io/themes/addons/user-.css");
+@import url("https://codedotspectra.github.io/themes/core/badges.tagscss");
+@import url("https://tomrdh.github.io/discord-addons/xcores/themes/OGGT_Core.css");
+
+
+:root {
+
+/*  Custom-Settings  */
+    --opera-gx-bg-1: url("https://cdn.discordapp.com/attachments/639149321992011798/846366778463748116/Untitled-1.png");
+    --opera-gx-bg-1: url("https://cdn.statically.io/img/wallpaperaccess.com/full/32825.jpg");
+    --opera-gx-bg-1: url("https://wallpaperaccess.com/full/168399.jpg");
+    --primary: #008ae6;
+    --primaryGradient2: #00e68a;
+    --backgroundDark: rgba(24,28,37,0);
+    --backgroundDarker: rgba(20,23,31,0.9);
+    --line-color: rgb(0, 90, 255);
+
+/*  Background-Settings  */
+    --background-behind-appmount: rgb(var(--darker-background-color));
+
+/*  Color-Settings (RGB only)  */
+    --accent-color-1: 0, 120, 255;
+    --accent-color-2: 255, 55, 109;
+    --dark-background-color: 18, 16, 25;
+    --darker-background-color: 8, 5, 14;
+
+/*  More-Color-Settings  */
+    --gx-red: 0, 50, 255;
+    --gx-red-2: 0, 70, 255;
+    --gx-yellow: 234, 234, 34;
+    --gx-yellow-2: 255, 255, 68;
+    --gx-green: 0, 212, 81;
+    --gx-green-2: 0, 255, 129;
+
+/*  Font-Color-Settings  */
+    --fullwhite-font: 250, 253, 255;
+    --normal-font: 201, 203, 206;
+    --normal-hover-font: 238, 239, 240;
+    --muted-font: 114, 118, 125;
+    --link-text: 0, 176, 244;
+    --font-in-accent: 0, 0, 0;
+
+/*  Font-Setting  */
+    --channel-name-transform: capitalize;
+    --category-name-transform: unset;
+
+/*  Advanced-Background-Settings  */
+    --wintitlebar-background-blur: none;
+    --wintitlebar-transparency: 0.7;
+    --wintitlebar-transparency-color: var(--dark-background-color);
+    --wintb-focused-alpha: 1;
+    --wintb-focused-color: var(--darker-background-color);
+
+    --header-background-blur: none;
+    --header-transparency: 0.3;
+    --header-transparency-color: var(--dark-background-color);
+
+    --serverlist-background-blur: none;
+    --serverlist-transparency: 0;
+    --serverlist-transparency-color: var(--dark-background-color);
+
+    --channels-background-blur: none;
+    --channels-transparency: 0;
+    --channels-transparency-color: var(--dark-background-color);
+
+    --chat-background-blur: none;
+    --chat-transparency: 0;
+    --chat-transparency-color: var(--dark-background-color);
+
+    --memberlist-background-blur: none;
+    --memberlist-transparency: 0;
+    --memberlist-transparency-color: var(--dark-background-color);
+
+    --st-l-scroller-bg-blur: none;
+    --st-l-scroller-transparency: 1;
+    --st-l-scroller-color: var(--dark-background-color);
+    --st-r-scroller-bg-blur: none;
+    --st-r-scroller-transparency: 1;
+    --st-r-scroller-color: var(--darker-background-color);
+
+/*  Advanced-Element-Transparency-Settings  */
+    --chatbox-transparency: 1;
+    --chatbox-focused-transparency: 1;
+    --other-transparency: 1;
+    --other-highlighted-transparency: 1;
+    --lines-transparency: 1;
+
+/*  Plugin-Compatibility-Settings  */
+    --channeltabs-background-color: var(--darker-background-color);
+        --channeltabs-bg-transparency: 1;
+    --channeltabs-tab-bg-color: var(--dark-background-color);
+    --channeltabs-tab-bg-transparency: 1;
+
+    --channeltabs-fav-bg-color: var(--dark-background-color);
+    --channeltabs-fav-bg-blur: none;
+    --channeltabs-fav-bg-transparency: 1;
+    --channeltabs-fav-hover: 111, 125, 138;
+    --channeltabs-fav-hover-alpha: 0.3;
+    --version008_oggt: none;
+}
+
+#app-mount::after {
+    content: none;
+    z-index: 0;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    padding: 0px;
+    box-sizing: border-box;
+    opacity: 0;
+}
+
+.content-1o0f9g {
+    background: fixed;
+    border: solid 1px rgba(var(--accent-color-2), var(--other-transparency));
+    border-radius: 0;
+    color: #00c3ff;
+    font-weight: 500;
+    display: block;
+    width: 7%;
+    margin: 0;
+    text-align: center;
+}
